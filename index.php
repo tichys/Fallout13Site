@@ -27,6 +27,7 @@
         <a class="nav-link" href="https://discord.gg/Hs9ch87">Discord</a>
   </li>
 </ul>
+<a class="nav-link" href="donate.html">Support Us</a>
 </nav>
   </head>
   <div class="container bg-dark">
