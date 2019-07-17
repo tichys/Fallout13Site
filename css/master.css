@@ -18,11 +18,6 @@ body {
   margin-top: 10px;
 }
 
-.card {
-  background-color: black;
-  color: #1bff1f;
-}
-
 .navbar .navbarNav .navbar-expand-lg {
   border-width: medium;
   border-color: #0b8c0c;
