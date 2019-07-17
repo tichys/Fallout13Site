@@ -22,7 +22,7 @@ if($mysqli->connect_error) {
     $timestamp = date('d-m-y');
     $author = $_POST["author"];
     $post = $_POST["post"]
-    $sql = "INSERT INTO posts (id, author, post, dateposted) VALUES ('', '$author', '$post', $timestamp)";
+    $sql = "INSERT INTO posts VALUES (0, '$author', '$post', $timestamp)";
 
     $result = $mysqli->query($sql);
 }
