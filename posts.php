@@ -11,7 +11,7 @@ $result = $mysqli->query($sql);
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "<p>Author: " . $row["author"]. " ". $row["dateposted"] ."</p> <p>" . $row["post"]. "</p><hr>";
+        echo "<figure class="figure"> <p> Posted By: " . $row["author"]. "   Date: ". $row["dateposted"] ."</p> <p>" . $row["post"]. "</p></figure><hr>";
     }
 } else {
     echo "0 results";
