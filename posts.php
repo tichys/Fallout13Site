@@ -11,7 +11,7 @@ $result = $mysqli->query($sql);
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo '<div class="card text-left" style="color: #1bff1f; background-color: black; padding-left: 25px;"> <p> Posted By: ' . $row["author"]. '<br>Date: ' . date("d-m-y",$row["dateposted"]) .'</p> <hr> <div class="card-body text-left"> <p>' . $row["post"]. '</p></div></div><hr>';
+        echo '<div class="card text-left bg-secondary" style="color: #1bff1f; padding-left: 25px;"> <p> Posted By: ' . $row["author"]. '<br>Date: ' . date("d-m-y",$row["dateposted"]) .'</p> <hr> <div class="card-body text-left" style="background-color: black;"> <p>' . $row["post"]. '</p></div></div><hr>';
     }
 } else {
     echo "0 results";
