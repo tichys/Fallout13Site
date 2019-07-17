@@ -11,6 +11,12 @@
 
  <?php
 require 'config.php';
+
+$mysqli = new mysqli($host, $username, $password, $database);
+if($mysqli->connect_error) {
+  echo('Error connecting to database');
+}
+
   if(isset($_POST['save']))
 {
     $timestamp = date('d-m-y');
@@ -18,7 +24,7 @@ require 'config.php';
     $post = $_POST["post"]
     $sql = "INSERT INTO posts (id, author, post, dateposted) VALUES ('', '$author', '$post', $timestamp)";
 
-    $result = mysqli_query($conn,$sql);
+    $result = $mysqli->query($sql);
 }
 
 ?>
