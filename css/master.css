@@ -1,6 +1,8 @@
 body {
   position: relative;
   background-color: black;
+  width: 100%;
+  white-space: nowrap;
 }
 .affix {
   top: 20px;
@@ -28,6 +30,7 @@ body {
   border-color: #0b8c0c;
   border-bottom-color: #0b8c0c;
   width: 100%;
+  white-space: nowrap;
 }
 
 .nav-link {
