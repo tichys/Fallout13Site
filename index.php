@@ -36,11 +36,9 @@
   </div>
   <div class="col-sm-8">
     <div class="jumbotron">
-      <h1>Welcome!</h1>
-      <p>Please join our <a href="https://discord.gg/Hs9ch87">Discord</a></p>
-      <br><br><div class="text-danger">
-        <h2>Website Under Construction</h2>
-      </div>
+      <h1>News</h1>
+      <br><br>
+      <?php include('posts.php') ?>
     </div>
   </div>
 </div>
