@@ -39,7 +39,9 @@
   </div>
   <div class="col-sm-8">
     <div class="jumbotron bg-dark" style="color: #1bff1f;">
-      <span class="border border-success"><h1>News</h1></span>
+      <div class="alert alert-success" role="alert">
+  <h1>News</h1>
+      </div>
       <hr>
       <br><br>
       <?php include('posts.php') ?>
