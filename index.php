@@ -35,7 +35,7 @@
     <img src="images/pip.png" alt="">
   </div>
   <div class="col-sm-8">
-    <div class="jumbotron bg-dark">
+    <div class="jumbotron bg-dark" style="color: #1bff1f;">
       <h1>News</h1>
       <br><br>
       <?php include('posts.php') ?>
