@@ -30,10 +30,10 @@
 </nav>
   </head>
   <div class="container bg-dark">
-<body data-spy="scroll" data-target=".col-sm-4" data-offset="50">
+<body data-spy="scroll" data-target="#pipboy" data-offset="15">
     <div class="row">
-  <div class="col-sm-4">
-    <img src="images/pip.png" data-spy="affix" data-offset="50">
+  <div class="col-sm-4" id="pipboy">
+    <img src="images/pip.png" data-spy="affix" data-offset="15">
   </div>
   <div class="col-sm-8">
     <div class="jumbotron bg-dark" style="color: #1bff1f;">
