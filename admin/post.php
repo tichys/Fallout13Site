@@ -14,8 +14,9 @@ require 'config.php';
   if(isset($_POST['save']))
 {
     $timestamp = date('d-m-y');
-    $sql = "INSERT INTO posts (id, author, post, dateposted)
-    VALUES ('""','".$_POST["author"]."','".$_POST["post"]."','"$timestamp"')";
+    $author = $_POST["author"];
+    $post = $_POST["post"]
+    $sql = "INSERT INTO posts (id, author, post, dateposted) VALUES ('', '$author', '$post', $timestamp)";
 
     $result = mysqli_query($conn,$sql);
 }
