@@ -10,9 +10,8 @@ $sql = "SELECT * FROM posts";
 $result = $mysqli->query($sql);
 
 if ($result->num_rows > 0) {
-    // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"]. " - Author: " . $row["author"]. " " . $row["post"]. "<br>";
+        echo "<p>Author: " . $row["author"]. " ". $row["dateposted"] ."</p> <p>" . $row["post"]. "</p><hr>";
     }
 } else {
     echo "0 results";
