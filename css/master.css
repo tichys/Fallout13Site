@@ -1,5 +1,10 @@
 body {
+  position: relative;
   background-color: black;
+}
+.affix {
+  top: 20px;
+  z-index: 9999 !important;
 }
 .jumbotron {
   padding-left: 50px;
