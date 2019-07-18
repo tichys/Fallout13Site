@@ -33,7 +33,7 @@ $mysqli->close();
 <input type="text" name="author"><br/>
 
 <label id="post">Post:</label><br/>
-<input type="text" name="post"><br/>
+<textarea name="post" id = "post" rows = "40" cols = "100"></textarea>
 
 <button type="submit" name="save">Post!</button>
 
