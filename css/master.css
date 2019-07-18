@@ -2,7 +2,6 @@ body {
   position: relative;
   background-color: black;
   width: 100%;
-  white-space: nowrap;
 }
 .affix {
   top: 20px;
@@ -30,7 +29,6 @@ body {
   border-color: #0b8c0c;
   border-bottom-color: #0b8c0c;
   width: 100%;
-  white-space: nowrap;
 }
 
 .nav-link {
@@ -43,4 +41,11 @@ body {
 
 .nav-tabs {
    border-bottom: 1px solid #0b8c0c;
+}
+
+.card {
+    max-width: 100%;
+}
+.card-text {
+    word-wrap: break-word;
 }
