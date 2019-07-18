@@ -34,7 +34,7 @@ $mysqli->close();
 
 <label id="post">Post:</label><br/>
 <textarea name="post" id = "post" rows = "40" cols = "100"></textarea>
-
+<br>
 <button type="submit" name="save">Post!</button>
 
 </form>
