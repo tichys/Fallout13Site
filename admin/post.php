@@ -24,6 +24,7 @@ if($mysqli->connect_error) {
     $post = $_POST["post"];
     $sql = "INSERT INTO posts (id, author, post, dateposted) VALUES (0, '$author', '$post', '$timestamp')";
     $mysqli->query($sql);
+    echo $timestamp;
 }
 $mysqli->close();
 ?>
