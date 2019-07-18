@@ -10,7 +10,7 @@
 <body>
 
  <?php
-require 'config.php';
+require '../config.php';
 
 $mysqli = new mysqli($host, $username, $password, $database);
 if($mysqli->connect_error) {
