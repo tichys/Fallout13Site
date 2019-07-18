@@ -1,7 +1,9 @@
 body {
-  position: relative;
   background-color: black;
-  width: 100%;
+  font-family: 'Share Tech Mono', monospace;
+}
+.banner {
+
 }
 .affix {
   top: 20px;
@@ -13,7 +15,7 @@ body {
   border-radius: 25px;
   text-align: center;
 }
-.container {
+.bodycontainer {
   border-top: 3px solid #0b8c0c;
   border-right: 5px solid #0b8c0c;
   padding-top: 20px;
@@ -24,7 +26,7 @@ body {
   margin-top: 10px;
 }
 
-.navbar .navbarNav .navbar-expand-lg {
+.navbar{
   border-width: medium;
   border-color: #0b8c0c;
   border-bottom-color: #0b8c0c;
