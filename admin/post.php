@@ -19,10 +19,10 @@ if($mysqli->connect_error) {
 
   if(isset($_POST['save']))
 {
-    $timestamp = date('d-m-y');
+    $timestamp = date('d-m-Y');
     $author = $_POST["author"];
     $post = $_POST["post"];
-    $sql = "INSERT INTO posts (id, author, post, dateposted) VALUES (0, '$author', '$post', 10122019)";
+    $sql = "INSERT INTO posts (id, author, post, dateposted) VALUES (0, '$author', '$post', '$timestamp')";
     $mysqli->query($sql);
 }
 $mysqli->close();

@@ -42,10 +42,3 @@ body {
 .nav-tabs {
    border-bottom: 1px solid #0b8c0c;
 }
-
-.card {
-    max-width: 100%;
-}
-.card-text {
-    word-wrap: break-word;
-}
