@@ -10,7 +10,7 @@
 <title>Fallout 13: A New Dawn</title>
 <nav class="navbar navbar-expand-lg navbar-secondary shadow sticky-top" style="padding: 1rem; position: relative; background: linear-gradient(to bottom, #1d6029, #1d5628, black); padding: 10px;">
   <div class="container">
-    <a class="navbar-brand" href="#">F13 A.N.D</a>
+    <a class="navbar-brand" href="#">Fallout 13: A New Dawn</a>
       <ul class="nav nav-tabs ml-auto">
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
