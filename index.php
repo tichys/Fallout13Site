@@ -43,8 +43,7 @@
     <iframe src="https://discordapp.com/widget?id=583059885881819145&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
   </div>
 </div>
-<div class="row">
-  <div class="col-sm-4">
+  <div class="col-sm-8">
     <div class="jumbotron bg-dark" style="color: #1bff1f;">
       <div class="alert alert-success" role="alert">
   <h1>News</h1>
@@ -54,7 +53,6 @@
       <?php include('posts.php') ?>
     </div>
   </div>
-</div>
 
   </body>
     </div>
