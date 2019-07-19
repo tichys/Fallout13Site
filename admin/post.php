@@ -11,11 +11,14 @@
 <body>
   <script type="text/javascript">
   function CheckType(val){
+   var labelel=document.getElementById('datelabel');
    var element=document.getElementById('date');
    if(val=='news')
      element.style.display='block';
+     labelel.style.display='block';
    else
      element.style.display='none';
+     labelel.style.display='none';
   }
 
   </script>
@@ -52,9 +55,9 @@ $mysqli->close();
 <select name="type" onchange='CheckType(this.value);'>
   <option value="news">News</option>
   <option value="event">Event</option>
-</select>
-<label id="date"> Event Date and Time(Example: 03/20/2019 2:00CST):</label><br/>
-<input type="text" name="date"><br/>
+</select><br/>
+<label id="datelabel" style='display:none;'> Event Date and Time(Example: 03/20/2019 2:00CST):</label><br/>
+<input id="date" type="text" name="date" style='display:none;'><br/>
 <label id="post">Post:</label><br/>
 <textarea name="post" id = "post" rows = "40" cols = "100"></textarea>
 <br>
