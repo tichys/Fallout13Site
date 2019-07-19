@@ -5,7 +5,7 @@ $mysqli = new mysqli($host, $username, $password, $database);
 if($mysqli->connect_error) {
   echo('Error connecting to database');
 }
-$sql = "SELECT * FROM posts";
+$sql = "SELECT * FROM posts ORDER BY id DESC";
 
 $result = $mysqli->query($sql);
 

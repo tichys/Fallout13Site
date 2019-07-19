@@ -2,7 +2,13 @@ use website;
 
 CREATE TABLE posts (
   id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  author varchar(255),
-  post varchar(255),
-  dateposted varchar(255)
+  author VARCHAR(255),
+  post LONGTEXT,
+  dateposted VARCHAR(255)
+);
+
+CREATE TABLE events (
+  id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  dateposted VARCHAR(255),
+  details LONGTEXT
 );

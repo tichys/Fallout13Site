@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-<include src="./header.html"></include>
-  </head>
+  <include src="./header.html"></include>
+</head>
   <div class="container bg-dark">
   <body>
     <div class="jumbotron bg-dark" style="color: #1bff1f;">
-      <h1>Features</h1>
+      <h1>Events Calendar</h1>
       <hr>
-      <p>Stuff about this server</p>
+      <?php include('calendar.php') ?>
     </div>
 
   </body>
