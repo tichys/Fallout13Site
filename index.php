@@ -1,6 +1,6 @@
 <html lang="en" dir="ltr">
 <head>
-<include src="./header.html"></include>
+<include src="header.html"></include>
   </head>
   <div class="container bg-dark">
 <body data-spy="scroll" data-target="#pipboy" data-offset="0">
