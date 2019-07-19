@@ -44,7 +44,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-sm-8">
+  <div class="col-sm-4">
     <div class="jumbotron bg-dark" style="color: #1bff1f;">
       <div class="alert alert-success" role="alert">
   <h1>News</h1>
