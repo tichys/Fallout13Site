@@ -41,7 +41,7 @@ if($mysqli->connect_error) {
     if ($type == "news") {
     $sql = "INSERT INTO posts (id, author, post, dateposted) VALUES (0, '$author', '$post', '$timestamp')";
   } elseif ($type == "event") {
-    $sql = "INSERT INTO posts (id, dateposted, details) VALUES (0, '$date', '$post')";
+    $sql = "INSERT INTO events (id, dateposted, details) VALUES (0, '$date', '$post')";
   }
     $mysqli->query($sql);
 }
