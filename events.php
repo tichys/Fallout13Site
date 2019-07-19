@@ -35,7 +35,8 @@
   <div class="container bg-dark">
   <body>
     <div class="jumbotron bg-dark" style="color: #1bff1f;">
-      <h1>Events Calendar</h1>
+      <div class="alert alert-success" role="alert">
+      <h1>Events Calendar</h1></div>
       <hr>
       <?php include('calendar.php') ?>
     </div>
