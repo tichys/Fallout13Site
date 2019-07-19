@@ -56,8 +56,8 @@ $mysqli->close();
   <option value="news">News</option>
   <option value="event">Event</option>
 </select><br/>
-<label id="datelabel" style='display:none;'> Event Date and Time(Example: 03/20/2019 2:00CST):</label><br/>
-<input id="date" type="text" name="date" style='display:none;'><br/>
+<label id="datelabel"> Event Date and Time(Example: 03/20/2019 2:00CST):</label><br/>
+<input id="date" type="text" name="date" ><br/>
 <label id="post">Post:</label><br/>
 <textarea name="post" id = "post" rows = "40" cols = "100"></textarea>
 <br>
